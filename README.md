@@ -8,8 +8,8 @@ Written in Python using the Click module.
     
 # Installation
     
-* Clone the directory with: 
-    `$ git clone https://github.com/chess10kp/cli-tools.git` (HTTPS)
+* Clone the directory with:  
+    `$ git clone https://github.com/chess10kp/cli-tools.git` (HTTPS)  
     `$ git clone git@github.com:chess10kp/cli-tools.git` (SSH)
 * Change the executable permissions of exec.sh for each util with:
     `$ chmod +x workspace/<utilname>/exec.sh`
