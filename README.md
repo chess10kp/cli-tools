@@ -24,4 +24,6 @@ Written in Python using the Click module.
 3. Add website urls to `urls.txt`
 4. Add application paths (usually `/usr/bin/app`) to `apps.txt`
 5. Add scripts to `scripts.txt`
-6. Optional: `$ cp -r ~/<PATH TO WORKSPACE FOLDER>/workspace ~/.config/autostart`
+6. Optional (autostart): 
+```$ touch ~/.config/autostart/filename.sh <br> $ sudo nano ~/.config/autostart/filename.sh```
+Type `workspace` 
