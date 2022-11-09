@@ -10,6 +10,8 @@ except ModuleNotFoundError:
     quit()
 
 browser_path = "/usr/bin/brave"
+
+
 class Workspace:
     def __init__(self):
         f_web = os.path.dirname(getsourcefile(lambda : 0)) + "/urls.txt"
@@ -29,8 +31,6 @@ def init_workspace():
             if len(f)>0:
                 for i in f:
                     browser_obj.open_new_tab(i)
-            else:
-                subprocess.Popen(browser_path)
 
     except FileNotFoundError:
         click.echo("url file does not exist")
@@ -43,15 +43,15 @@ def init_workspace():
     except FileNotFoundError:
         click.echo("apps file does not exist")
 
-    try:
-        f = open(os.path.dirname(getsourcefile(lambda: 0))+"/scripts.txt")
-        fr = f.read()
+    with open(os.path.dirname(getsourcefile(lambda: 0))+"/scripts.txt") as f:
+        fr = f.read().split('\n')
+        print(fr)
         for i in fr:
-            subprocess.check_output(i)
-    except FileNotFoundError:
-        click.echo("scripts.txt may have been moved")
+            print(i)
+            print(subprocess.run(i, shell=True))
 
     quit()
+
 
 if __name__ == "__main__":
     init_workspace()

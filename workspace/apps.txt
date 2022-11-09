@@ -1,2 +1,0 @@
-/usr/bin/pycharm
-/usr/bin/discord
