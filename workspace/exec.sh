@@ -7,5 +7,5 @@ then
     exit
 fi
 
-python3 /home/nitin/projects_HQ/python/cli-tools/workspace/workspace.py
+python3 $(pwd)/workspace.py
 
