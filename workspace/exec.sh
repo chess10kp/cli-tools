@@ -7,5 +7,7 @@ then
     exit
 fi
 
-python3 $(pwd)/workspace.py
+dir=$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)
+
+python3 ${dir}/workspace.py
 
