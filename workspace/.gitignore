@@ -1,2 +1,4 @@
 venv 
 click
+__pycache__
+workspace.egg-info
