@@ -1,0 +1,8 @@
+setup.py
+workspace.py
+workspace.egg-info/PKG-INFO
+workspace.egg-info/SOURCES.txt
+workspace.egg-info/dependency_links.txt
+workspace.egg-info/entry_points.txt
+workspace.egg-info/requires.txt
+workspace.egg-info/top_level.txt
