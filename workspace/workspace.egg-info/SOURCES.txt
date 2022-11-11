@@ -1,5 +1,11 @@
+.gitignore
+click
 setup.py
 workspace.py
+__pycache__/workspace.cpython-310.pyc
+static/apps.txt
+static/scripts.txt
+static/urls.txt
 workspace.egg-info/PKG-INFO
 workspace.egg-info/SOURCES.txt
 workspace.egg-info/dependency_links.txt
