@@ -1,4 +1,2 @@
 sudo pacman -Syu
-feh --bg-scale /usr/share/endeavouros/backgrounds/eos-wallpaper-community/LAUNCH_SUNSET.png
-polybar
-plank
+
