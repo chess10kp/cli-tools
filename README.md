@@ -31,3 +31,4 @@ Written in Python using the Click module.
 6. Optional (autostart): 
 ```$ touch ~/.config/autostart/filename.sh <br> $ sudo nano ~/.config/autostart/filename.sh```
 Type `workspace` 
+
